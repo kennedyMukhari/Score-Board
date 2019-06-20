@@ -1,0 +1,28 @@
+page-board {
+    .content {
+        background-image: url('../../assets/imgs/pitch.jpg');
+        background-size: cover;
+        color: white;
+
+    }
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .box-1 {
+        flex: 1;
+        background-color: aqua;
+        width: 50%;
+    }
+    .box-2 {
+        flex: 1;
+        background-color: antiquewhite;
+        width: 50%;
+    }
+    .box-2 img{
+        float: right;
+    }
+}
